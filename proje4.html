@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proje4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <!-- Header Alanı-->
+
+    <header>
+        <nav>
+            <a href="proje4.html"><img src="images/atatürk.jpg" alt="" width="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                  <ul>
+                    <li><a href="#">Anıtkabir</a></li>
+                    <li><a href="#">Mustafa Kemal Atatürk</a></li>
+                    <li><a href="#">Hayatı</a></li>
+                    <li><a href="#">İletişim</a></li>
+                    
+                  </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+    </header>
+
+    <!-- Metin Kutucuğu-->
+    <div class="text-box">
+        <h1> Türkiye Cumhuriyeti</h1>
+        <p> Türkiye Cumhuriyeti 29.10.1923 yılında kurulmuştur. 
+            Ulu Önder Mustafa Kemal Atatürk ve silah arkadaşları kurtuluş savaşı 
+            sonrasında en iyi yönetim şeklinin Cumhuriyet olduğuna karar verdiler. 
+            Cumhuriyeti biz kurduk, onu yükseltecek ve yaşatacak sizsiniz. Türk milletinin karakterine ve 
+            adetlerine en uygun olan idare, Cumhuriyet idaresidir. Benim naçiz vücudum nasıl olsa bir gün toprak olacaktır. 
+            Fakat Türkiye Cumhuriyeti ebediyen yaşayacaktır.</p>
+        <a href="" class="hero-btn"> Daha Fazlası İçin Dokun</a>
+    </div>
+
+    <!--Eğitimler Alanı-->
+    <section class="course">
+        <h1> Cumhuriyet Tarihi</h1>
+        <p>Atatürk, 24 Nisan 1920 ve 13 Ağustos 1923 tarihlerinde TBMM Başkanlığına seçildi. 
+            Bu başkanlık görevi, devlet-hükûmet başkanlığı düzeyindeydi. 
+            29 Ekim 1923 tarihinde Cumhuriyet ilan edildi ve Atatürk ilk cumhurbaşkanı seçildi.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>1. Dünya Savaşı</h3>
+                    <p1>I. Dünya Savaşı, 28 Temmuz 1914 tarihinde başlayıp 
+                        11 Kasım 1918 tarihinde sona eren Avrupa merkezli 
+                        küresel bir savaştır. II. Dünya Savaşı'na kadar 
+                        Dünya Savaşı veya Büyük Savaş olarak adlandırılmıştır.</p1>
+                </div>
+                <div class="course-col">
+                    <h3>Kurtuluş Savaşı</h3>
+                    <p1>Türk Kurtuluş Savaşı, I. Dünya Savaşı'ndan yenik çıkan Osmanlı İmparatorluğu'nun 
+                        İtilaf Devletleri'nce işgali sonucunda Mîsâk-ı Millî sınırları içinde 
+                        ülke bütünlüğünü korumak için 1919-1922 yılları arasında gerçekleştirilen 
+                        çok cepheli siyasi ve askeri mücadeledir.</p1>
+                </div>
+                <div class="course-col">
+                    <h3>Cumhuriyetin İlan Edilmesi</h3>
+                    <p1>Cumhuriyetin ilanı, hukuksal olarak İkinci Dönem 
+                        Türkiye Büyük Millet Meclisinin 29 Ekim 1923 günü 
+                        gerçekleşen oturumunda Mustafa Kemal'in hazırladığı 
+                        anayasa değişikliği teklifinin kabul edilmesiyle 
+                        Türkiye Devleti'nin yönetim şeklinin cumhuriyet olarak 
+                        belirlenmesidir.</p1>
+                </div>
+
+            </div>
+
+
+
+    </section>
+
+
+       <!--javascript alanı-->
+
+
+
+
+    <!--javascript alanı-->
+<script>
+    var navLinks = document.getElementById('navLinks')
+
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+  
+</body>
+</html>
